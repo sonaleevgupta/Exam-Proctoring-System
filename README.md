@@ -1,7 +1,7 @@
 # Exam-Proctoring-System
 
 
-**Real-time AI-powered cheating detection** using React + Flask + Computer Vision
+**Real-time cheating detection** - Gaze | Multiple faces | Tab switch | Phone | Voice | Auto-screenshot | Scorecard
 
 [![Stars](https://img.shields.io/github/stars/sonaleevgupta/Exam-Proctoring-System?style=social)](https://github.com/sonaleevgupta/Exam-Proctoring-System)
 
