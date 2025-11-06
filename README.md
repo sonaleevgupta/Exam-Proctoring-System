@@ -1,11 +1,6 @@
 # Exam-Proctoring-System
 
-
-# 🕵️‍♂️ AI Proctor
-
 A modern, AI-powered online exam proctoring system with real-time object detection, proctor dashboard, and anti-cheating measures.
-
----
 
 ## 📋 Table of Contents
 
