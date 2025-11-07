@@ -1,10 +1,11 @@
 ﻿{
-  "version": 2,
   "builds": [
     {
       "src": "ai-proctor/package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
+      "config": {
+        "distDir": "ai-proctor/dist"
+      }
     },
     {
       "src": "backend/app.py",
@@ -12,7 +13,23 @@
     }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "backend/app.py" },
-    { "src": "/(.*)", "dest": "ai-proctor/dist/index.html" }
-  ]
+    {
+      "src": "/api/(.*)",
+      "dest": "/backend/app.py"
+    },
+    {
+      "src": "/assets/(.*)",
+      "dest": "/ai-proctor/dist/assets/"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/ai-proctor/dist/index.html"
+    }
+  ],
+  "functions": {
+    "backend/app.py": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
 }
