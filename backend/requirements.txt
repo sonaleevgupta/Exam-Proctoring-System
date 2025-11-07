@@ -4,7 +4,7 @@ Flask-SQLAlchemy==3.0.5
 ultralytics==8.3.103
 opencv-python-headless==4.10.0.84
 mediapipe==0.10.21
-numpy==2.1.1
+numpy==1.26.4
 Pillow==11.1.0
 gdown
 requests==2.31.0
