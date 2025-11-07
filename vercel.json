@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 2,
   "builds": [
     {
@@ -13,6 +13,6 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "backend/app.py" },
-    { "src": "/(.*)", "dest": "/ai-proctor/dist/index.html" }
+    { "src": "/(.*)", "dest": "ai-proctor/dist/index.html" }
   ]
 }
